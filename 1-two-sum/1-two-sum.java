@@ -1,5 +1,6 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
+        // brute force approach using some basic mathematic and concept of HashMap 
         int[] res = new int[2];
         
         
