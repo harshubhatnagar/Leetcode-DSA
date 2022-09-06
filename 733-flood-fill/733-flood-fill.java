@@ -1,5 +1,6 @@
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+    // simple DFS solution
         if(image[sr][sc] == color)
             return image;
         fill(image,sr,sc,image[sr][sc], color);
